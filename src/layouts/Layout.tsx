@@ -4,9 +4,13 @@ import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { FloatingButtons } from '../components/FloatingButtons';
 import { WhatsAppOrderForm } from '../components/WhatsAppOrderForm';
+import { usePageTracker } from '../hooks/usePageTracker';
 
 export const Layout: React.FC = () => {
   const { pathname } = useLocation();
+
+  // Initialize global page tracking
+  usePageTracker();
 
   // Automatically scroll to top of window on page changes
   useEffect(() => {

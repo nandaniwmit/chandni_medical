@@ -262,20 +262,21 @@ export const Footer: React.FC = () => {
 
         {/* Copyright notice and developer credits */}
         <div className="mt-8 pt-6 border-t border-slate-200/60 dark:border-slate-800/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 dark:text-slate-500 font-medium">
-          <p>
-            &copy; {new Date().getFullYear()} <span className="text-slate-700 dark:text-slate-300 font-semibold">{BUSINESS_INFO.name}</span>. All rights reserved.
-          </p>
-          <p className="flex items-center gap-1">
-            <span>Developed by</span>
-            <a 
-              href="https://main.webmakerit.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-[#0A8F6A] dark:text-emerald-400 hover:opacity-80 font-bold flex items-center gap-0.5 group"
-            >
-              WMIT Solutions
-              <ExternalLink className="w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-            </a>
+          <p className="flex flex-wrap items-center gap-x-1.5 justify-center sm:justify-start">
+            <span>&copy; {new Date().getFullYear()} <span className="text-slate-700 dark:text-slate-300 font-semibold">{BUSINESS_INFO.name}</span>. All rights reserved.</span>
+            <span className="hidden sm:inline text-slate-300 dark:text-slate-700">•</span>
+            <span className="flex items-center gap-1">
+              <span>Developed by</span>
+              <a 
+                href="https://main.webmakerit.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-[#0A8F6A] dark:text-emerald-400 hover:opacity-80 font-bold inline-flex items-center gap-0.5 group"
+              >
+                WMIT
+                <ExternalLink className="w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              </a>
+            </span>
           </p>
         </div>
       </div>
