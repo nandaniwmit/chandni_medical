@@ -18,13 +18,13 @@ const LoadingFallback: React.FC = () => {
       <div className="relative flex flex-col items-center gap-4">
         {/* Heartbeat pulse animation effect */}
         <div className="relative flex items-center justify-center">
-          <div className="absolute w-16 h-16 bg-emerald-500/20 rounded-full animate-ping"></div>
-          <div className="p-4 bg-emerald-600 text-white rounded-2xl shadow-lg relative z-10 animate-pulse">
+          <div className="absolute w-16 h-16 bg-[#0A8F6A]/20 rounded-full animate-ping"></div>
+          <div className="p-4 bg-[#0A8F6A] text-white rounded-2xl shadow-sm relative z-10 animate-pulse">
             <Pill className="w-8 h-8 rotate-45" />
           </div>
         </div>
         <div>
-          <span className="block text-sm font-bold tracking-widest text-emerald-600 dark:text-emerald-400 uppercase text-center animate-pulse">
+          <span className="block text-sm font-bold tracking-widest text-[#0A8F6A] dark:text-emerald-400 uppercase text-center animate-pulse">
             Chandni Medical
           </span>
           <span className="block text-[11px] text-slate-400 dark:text-slate-500 font-semibold text-center mt-1">

@@ -120,7 +120,7 @@ export const About: React.FC = () => {
 
             {/* Vision */}
             <div className="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-150 dark:border-slate-800 shadow-sm space-y-4">
-              <div className="p-3 bg-emerald-50 dark:bg-emerald-950/30 text-emerald-600 dark:text-emerald-400 w-fit rounded-xl">
+              <div className="p-3 bg-emerald-50 dark:bg-emerald-950/30 text-[#0A8F6A] dark:text-emerald-400 w-fit rounded-xl">
                 <Compass className="w-6 h-6" />
               </div>
               <h3 className="font-black text-lg text-slate-900 dark:text-white tracking-tight">Our Vision Statement</h3>
@@ -136,10 +136,10 @@ export const About: React.FC = () => {
               </div>
               <h3 className="font-black text-lg text-slate-900 dark:text-white tracking-tight">Our Core Values</h3>
               <ul className="grid grid-cols-2 gap-2.5 text-xs font-bold text-slate-700 dark:text-slate-300">
-                <li className="flex items-center gap-1.5"><Check className="w-4 h-4 text-emerald-500" /> Absolute Integrity</li>
-                <li className="flex items-center gap-1.5"><Check className="w-4 h-4 text-emerald-500" /> Human Concern</li>
-                <li className="flex items-center gap-1.5"><Check className="w-4 h-4 text-emerald-500" /> Technical Precision</li>
-                <li className="flex items-center gap-1.5"><Check className="w-4 h-4 text-emerald-500" /> Fast Delivery</li>
+                <li className="flex items-center gap-1.5"><Check className="w-4 h-4 text-[#0A8F6A]" /> Absolute Integrity</li>
+                <li className="flex items-center gap-1.5"><Check className="w-4 h-4 text-[#0A8F6A]" /> Human Concern</li>
+                <li className="flex items-center gap-1.5"><Check className="w-4 h-4 text-[#0A8F6A]" /> Technical Precision</li>
+                <li className="flex items-center gap-1.5"><Check className="w-4 h-4 text-[#0A8F6A]" /> Fast Delivery</li>
               </ul>
             </div>
 
@@ -289,7 +289,7 @@ export const About: React.FC = () => {
             </div>
 
             {/* Disclaimer block inside article */}
-            <div className="p-4 bg-slate-50 dark:bg-slate-800/40 rounded-xl text-xs text-slate-500 leading-relaxed border-l-2 border-emerald-500">
+            <div className="p-4 bg-slate-50 dark:bg-slate-800/40 rounded-xl text-xs text-slate-500 leading-relaxed border-l-2 border-[#0A8F6A]">
               <strong>Patient Note:</strong> This guide has been verified by our Lead Pharmacist at Chandni Medical. Always align medication practices with your physician's exact prescription instructions.
             </div>
           </div>

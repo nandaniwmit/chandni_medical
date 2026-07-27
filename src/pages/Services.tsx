@@ -115,7 +115,7 @@ export const Services: React.FC = () => {
                     <ul className="grid grid-cols-1 gap-2">
                       {service.items.map((item, index) => (
                         <li key={index} className="flex items-start gap-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
-                          <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
+                          <CheckCircle2 className="w-4 h-4 text-[#0A8F6A] shrink-0 mt-0.5" />
                           <span>{item}</span>
                         </li>
                       ))}

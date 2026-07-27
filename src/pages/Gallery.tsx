@@ -185,7 +185,7 @@ export const Gallery: React.FC = () => {
             {/* Prev Trigger */}
             <button
               onClick={handlePrev}
-              className="p-3 bg-white/10 hover:bg-white/20 text-white rounded-full transition-all focus:outline-none focus:ring-2 focus:ring-emerald-400 active:scale-95 shrink-0"
+              className="p-3 bg-white/10 hover:bg-white/20 text-white rounded-full transition-all focus:outline-none focus:ring-2 focus:ring-[#0A8F6A]/40 active:scale-95 shrink-0"
               aria-label="Previous Image"
             >
               <ChevronLeft className="w-6 h-6" />
@@ -207,7 +207,7 @@ export const Gallery: React.FC = () => {
             {/* Next Trigger */}
             <button
               onClick={handleNext}
-              className="p-3 bg-white/10 hover:bg-white/20 text-white rounded-full transition-all focus:outline-none focus:ring-2 focus:ring-emerald-400 active:scale-95 shrink-0"
+              className="p-3 bg-white/10 hover:bg-white/20 text-white rounded-full transition-all focus:outline-none focus:ring-2 focus:ring-[#0A8F6A]/40 active:scale-95 shrink-0"
               aria-label="Next Image"
             >
               <ChevronRight className="w-6 h-6" />
