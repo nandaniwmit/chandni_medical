@@ -1,0 +1,6 @@
+{
+  "name": "Chandni Medical",
+  "description": "Your Trusted Medical Store for Genuine Medicines & Healthcare Needs in Gaya, Bihar. Providing authentic pharmaceutical products, wellness essentials, and dedicated patient care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "1",
+    "medicineName": "Calpol 650mg (Paracetamol)",
+    "brand": "GSK (GlaxoSmithKline)",
+    "mrp": 33.60,
+    "availableQuantity": 250,
+    "expiry": "2028-04",
+    "status": "Available"
+  },
+  {
+    "id": "2",
+    "medicineName": "Novamox 500mg (Amoxicillin)",
+    "brand": "Cipla Ltd",
+    "mrp": 118.50,
+    "availableQuantity": 120,
+    "expiry": "2027-11",
+    "status": "Available"
+  },
+  {
+    "id": "3",
+    "medicineName": "Glycomet 500mg (Metformin)",
+    "brand": "USV Pvt Ltd",
+    "mrp": 24.80,
+    "availableQuantity": 400,
+    "expiry": "2028-09",
+    "status": "Available"
+  },
+  {
+    "id": "4",
+    "medicineName": "Lipivas 10mg (Atorvastatin)",
+    "brand": "Cipla Ltd",
+    "mrp": 78.00,
+    "availableQuantity": 8,
+    "expiry": "2027-08",
+    "status": "Limited Stock"
+  },
+  {
+    "id": "5",
+    "medicineName": "Pan-40 (Pantoprazole 40mg)",
+    "brand": "Alkem Laboratories",
+    "mrp": 145.00,
+    "availableQuantity": 180,
+    "expiry": "2028-03",
+    "status": "Available"
+  },
+  {
+    "id": "6",
+    "medicineName": "Azee 500mg (Azithromycin)",
+    "brand": "Cipla Ltd",
+    "mrp": 122.30,
+    "availableQuantity": 0,
+    "expiry": "2026-12",
+    "status": "Out of Stock"
+  },
+  {
+    "id": "7",
+    "medicineName": "Alerid 10mg (Cetirizine)",
+    "brand": "Cipla Ltd",
+    "mrp": 19.20,
+    "availableQuantity": 350,
+    "expiry": "2029-01",
+    "status": "Available"
+  },
+  {
+    "id": "8",
+    "medicineName": "Brufen 400mg (Ibuprofen)",
+    "brand": "Abbott India",
+    "mrp": 16.50,
+    "availableQuantity": 5,
+    "expiry": "2027-05",
+    "status": "Limited Stock"
+  },
+  {
+    "id": "9",
+    "medicineName": "Lantus SoloStar (Insulin Glargine)",
+    "brand": "Sanofi India",
+    "mrp": 1465.00,
+    "availableQuantity": 30,
+    "expiry": "2027-02",
+    "status": "Available"
+  },
+  {
+    "id": "10",
+    "medicineName": "Becosules Capsules (Multivitamin)",
+    "brand": "Pfizer Ltd",
+    "mrp": 52.40,
+    "availableQuantity": 600,
+    "expiry": "2028-12",
+    "status": "Available"
+  },
+  {
+    "id": "11",
+    "medicineName": "Ascoril LS Syrup",
+    "brand": "Glenmark Pharmaceuticals",
+    "mrp": 128.00,
+    "availableQuantity": 85,
+    "expiry": "2027-10",
+    "status": "Available"
+  },
+  {
+    "id": "12",
+    "medicineName": "Betadine 10% Ointment (15g)",
+    "brand": "Win-Medicare Pvt Ltd",
+    "mrp": 115.00,
+    "availableQuantity": 0,
+    "expiry": "2026-10",
+    "status": "Out of Stock"
+  },
+  {
+    "id": "13",
+    "medicineName": "Telma 40mg (Telmisartan)",
+    "brand": "Glenmark Pharmaceuticals",
+    "mrp": 96.40,
+    "availableQuantity": 150,
+    "expiry": "2028-06",
+    "status": "Available"
+  },
+  {
+    "id": "14",
+    "medicineName": "Montair FX (Montelukast + Fexofenadine)",
+    "brand": "Cipla Ltd",
+    "mrp": 210.00,
+    "availableQuantity": 4,
+    "expiry": "2027-04",
+    "status": "Limited Stock"
+  },
+  {
+    "id": "15",
+    "medicineName": "Volini Pain Relief Gel (50g)",
+    "brand": "Sun Pharmaceutical Industries",
+    "mrp": 175.00,
+    "availableQuantity": 90,
+    "expiry": "2028-08",
+    "status": "Available"
+  }
+]
