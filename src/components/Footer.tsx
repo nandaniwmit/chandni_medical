@@ -266,16 +266,8 @@ export const Footer: React.FC = () => {
             <span>&copy; {new Date().getFullYear()} <span className="text-slate-700 dark:text-slate-300 font-semibold">{BUSINESS_INFO.name}</span>. All rights reserved.</span>
             <span className="hidden sm:inline text-slate-300 dark:text-slate-700">•</span>
             <span className="flex items-center gap-1">
-              <span>Developed by</span>
-              <a 
-                href="https://main.webmakerit.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-[#0A8F6A] dark:text-emerald-400 hover:opacity-80 font-bold inline-flex items-center gap-0.5 group"
-              >
-                WMIT
-                <ExternalLink className="w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-              </a>
+              <span></span>
+              <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>
             </span>
           </p>
         </div>
